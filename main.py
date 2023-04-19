@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import os
 
-web_server = Flask(__name__, template_folder='ui')
+web_server = Flask(__name__, template_folder='html')
 
 
 @web_server.route('/')
