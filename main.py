@@ -25,4 +25,4 @@ def run_command():
 
 
 if __name__ == '__main__':
-    web_server.run(host='0.0.0.0', port=999 debug=True)
+    web_server.run(host='0.0.0.0', port=999, debug=True)
